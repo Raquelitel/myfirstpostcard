@@ -1,0 +1,53 @@
+body {
+	background: black;
+	font-family: "Cuprum", sans-serif;
+}
+
+img {
+	width: 4rem;
+	height: 4rem;
+}
+h1 {
+	width: 90%;
+	margin: 0;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	padding-top: 0.5rem;
+}
+
+.contenedor {
+	background: white;
+	width: 30rem;
+	height: 20rem;
+	margin: auto;
+	padding: 1rem;
+}
+
+.contenedor-header {
+	display: flex;
+}
+
+.contenedor-body {
+	display: flex;
+	padding-top: 1rem;
+}
+
+.texto p:first-child {
+	margin-top: 0;
+}
+
+.contenedor-footer {
+	text-align: center;
+}
+
+.button {
+	background: #888786;
+	padding: 1rem;
+}
